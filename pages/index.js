@@ -1,7 +1,7 @@
-import React from 'react'
-import Head from 'next/head'
-import Nav from '../components/nav'
-
+import React from 'react';
+import Head from 'next/head';
+import Nav from '../components/nav';
+import { Button } from 'antd';
 const Home = () => (
   <div>
     <Head>
@@ -10,7 +10,7 @@ const Home = () => (
     </Head>
 
     <Nav />
-
+    <Button>ddd</Button>
     <div className="hero">
       <h1 className="title">Welcome to Next.js!</h1>
       <p className="description">
@@ -83,6 +83,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
